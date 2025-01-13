@@ -13,7 +13,7 @@ export type FileExtension = "svg" | "png" | "jpeg" | "webp";
 export type GradientType = "radial" | "linear";
 export type DrawType = "canvas" | "svg";
 export type ShapeType = "square" | "circle";
-
+export type Multibyte = "default" | "UTF-8"
 export type Window = DOMWindow;
 
 export type Gradient = {
